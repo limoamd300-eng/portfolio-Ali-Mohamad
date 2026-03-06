@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Typewriter } from 'react-simple-typewriter';
 import { Cpu, ShieldCheck, Bug, Activity } from 'lucide-react';
+import { cn } from '../lib/utils';
 
 export const Home: React.FC = () => {
   const metrics = [
@@ -121,5 +122,3 @@ export const Home: React.FC = () => {
     </div>
   );
 };
-
-import { cn } from '../lib/utils';
